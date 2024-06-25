@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden;  */
+    /* 防止滚动条 */
+}
+
+#background-container {
+    width: 100%; /* 可以根据需要调整 */
+    height: 100%;
+    background-image: url('img/lizbird.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    /* cursor: grab; 
+    position: relative;  */
+}
+
+/* #background-container:active {
+    cursor: grabbing;
+} */
+#menu{
+    background-color:rgba(245, 244, 244, 0.5);
+    height:600px;
+    width:400px;
+    position: fixed;
+    top: 50px;  /* 距离视口上方 50px */
+    left: 100px;   /* 距离视口右侧 0px */
+}
