@@ -15,33 +15,36 @@ body, html {
     background-position: bottom center;
     background-attachment: fixed;
     overflow:scroll;
+    cursor: grab; /* 显示抓手光标 */
+    position: relative;
 }
 
-/* #background-container:active {
+#background-container:active {
     cursor: grabbing;
-} */
+}
 #menu{
     background-color:rgba(245, 244, 244, 0.5);
     height:600px;
-    width:400px;
-    position: fixed;
+    width:auto;
+    position: absolute;
     top: 50px;  /* 距离视口上方 50px */
     left: 100px;   /* 距离视口右侧 0px */
+    display: inline-block;
+    padding: 30px;
 }
 #contents{
     background-color:rgba(245, 244, 244, 0.5);
     height:auto;
-    width:700px;
-    top: 50px;  /* 距离视口上方 50px */
-    left: 600px;   
+    width:auto;
+    top: 20px;  /* 距离视口上方 50px */
+    left: 400px;   
     padding: 15px;
-    position:relative;
-    margin: 10px;
+    position:absolute;
+    margin: 40px;
+    display: inline-block;
 }
-#mingfei{
-    width: 450px;
-    height: 450px;
-    position: relative;
-    left: 20px;
+.picture{
+    width: 300px;
+    height: 300px;
     margin: 10px;
 }
