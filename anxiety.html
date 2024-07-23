@@ -36,12 +36,22 @@
             </h4>
             <ul>
                 <li>和本地编译器不同，必须把predecessor->right断掉，否则无法析构函数，内存泄漏</li>
+                <li>搜索二叉树中序遍历的顺序就是递增的</li>
                 <li>root正常更新会被predecessor指回去，此时左边搜索完成</li>
             </ul>
             <h4>
                 <a href="https://leetcode.cn/problems/path-sum-ii/">dfs 记录path</a>
-                <li>dfs bfs一带着path就头晕是吧</li>
             </h4>
+            <ul>
+                <li>dfs bfs一带着path就头晕是吧</li>
+            </ul>
+            <h4>
+                <a href="https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/">前序遍历，二叉树重组成链表</a>
+            </h4>
+            <ul>
+                <li>顺序中左右</li>
+                <li>左子树接在root右边，原来的右子树接在原来的左子树的最右节点的右边，root往右挪一个，依次循环</li>
+            </ul>
         </div>
     </div>
 </body>
